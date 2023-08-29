@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" style="--bs-body-bg: #0f1118;" data-bs-spy="scroll" data-bs-target="#navcol-1" data-bs-smooth-scroll="true" lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Gerador de Cartas de Baralho</title>
+    <meta property="og:title" content="Gerador de Cartas de Baralho">
+    <meta name="twitter:description" content="Ferramenta criada para auxiliar escritores, jogadores de RPG e gamers em geral na escolha de nomes para seus personagens. Com uma base de dados vasta e diversificada, apresenta opções para nomear seus personagens.">
+    <meta name="twitter:image" content="/assets/img/geral/blobs/names_generate.webp">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:description" content="Ferramenta criada para auxiliar escritores, jogadores de RPG e gamers em geral na escolha de nomes para seus personagens. Com uma base de dados vasta e diversificada, apresenta opções para nomear seus personagens.">
+    <meta name="twitter:title" content="Gerador de Cartas de Baralho">
+    <meta name="description" content="Ferramenta criada para auxiliar escritores, jogadores de RPG e gamers em geral no desenvolvimento de suas aventuras.">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/geral/marca/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/geral/marca/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/geral/marca/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/geral/marca/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/geral/marca/icon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/geral/marca/icon/android-chrome-512x512.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body class="bg-dark">
+    <section style=margintop: 0px;padding-top: 70px;margin-bottom: 2px;padding-bottom: 220px;>
+        <div class="container">
+            <div class="overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-md-6 order-first order-md-last" style="min-height: 250px;padding-left: 30px;padding-right: 30px;padding-top: 10px;padding-bottom: 10px;"><img class="img-fluid w-100 h-100 fit-cover" id="cardshow" src="https://apis.arkanus.app/poker-card/2/10.webp" style="padding-top: 0px;padding-bottom: 1px;padding-left: 0px;padding-right: 0px;border-radius: 22px;box-shadow: 0px 0px 13px 4px #000000;" loading="auto" alt="Carta de baralho aleatoria"></div>
+                    <div class="col d-flex justify-content-center align-items-center align-content-center order-last">
+                        <div class="text-white">
+                            <h1 class="fw-bold text-white">Gerador de Cartas Baralho</h1>
+                            <p>Um Gerador de cartas de baralho aleatórias, que pode de alguma de alguma forma ajudar a fazer alguma campanha ou jogo.&nbsp;</p>
+                            <div class="d-xl-flex justify-content-xl-start align-items-xl-center"><button class="btn btn-primary btn-lg link-light m-2 ms-0" id="cardsrun" type="button">Gerar Carta</button><select class="border rounded form-select-lg m-2 p-2" id="cardstype" name="card">
+                                    <option value="random" selected="">Todas as Cartas</option>
+                                    <option value="0">Espada (♠)</option>
+                                    <option value="1">Paus (♣)</option>
+                                    <option value="2">Copas (♥)</option>
+                                    <option value="3">Ouro (♦)</option>
+                                </select></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bs-init.js"></script>
+    <script src="/assets/js/geradores/gerar_carta_baralho.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Como jogar Tormenta 20 no discord</title>
+    <meta name="twitter:image" content="/assets/img/geral/background/tormenta.webp">
+    <meta property="og:title" content="Como jogar Tormenta 20 no discord">
+    <meta property="og:description" content="Um pequeno guia pratico do que é Tormenta 21 e de como jogar pelo discord usando o Bot de RPG de mesa Mini Kraken.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="article">
+    <meta name="description" content="Um pequeno guia pratico do que é Tormenta 21 e de como jogar pelo discord usando o Bot de RPG de mesa Mini Kraken.">
+    <meta name="twitter:description" content="Um pequeno guia pratico do que é Tormenta 21 e de como jogar pelo discord usando o Bot de RPG de mesa Mini Kraken.">
+    <meta name="twitter:title" content="Como jogar Tormenta 20 no discord">
+    <meta property="og:image" content="/assets/img/geral/background/tormenta.webp">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/geral/marca/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/geral/marca/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/geral/marca/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/geral/marca/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/geral/marca/icon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/geral/marca/icon/android-chrome-512x512.png">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body class="bg-dark">
+    <section style="padding-left: 3vw;padding-right: 3vw;">
+        <div class="col">
+            <div class="container-fluid" style="background: var(--purple);margin-top: 2vw;padding-top: 2vw;border-radius: 11px;padding-bottom: 3vw;padding-left: 2vw;padding-right: 2vw;margin-bottom: 5vw;">
+                <div style="background: url(&quot;/assets/img/geral/background/car_customizer.webp&quot;) bottom / cover;border-radius: 8px;padding-left: 2vw;padding-right: 2vw;margin-bottom: 1vw;padding-top: 4vw;padding-bottom: 8vw;filter: blur(0px);backdrop-filter: opacity(1);"><span class="badge bg-primary text-light" style=marginright: 5px;>Homebrew</span><span class="badge bg-primary text-light" style=marginright: 5px;>Personalização</span><span class="badge bg-primary text-light" style=marginright: 5px;>RPG da Farofa da GKAY?</span><span class="badge bg-primary text-light" style=marginright: 5px;>Jogue RPG de Mesa no Discord</span>
+                    <h1 class="text-light">Sistemas Personalizados no Mini Kraken Bot para RPG de Mesa no discord.</h1>
+                </div>
+                <h2 class="text-light">Introdução</h2>
+                <article>
+                    <p class="text-light">Poucas pessoas sabem, porém é possível ter seu próprio sistema personalizado com o Mini Kraken, este aqui é um guia pratico de como criar e adicionar o seu sistema Homebrew ao bot, e ter todos os recursos de fichas inteligentes sobe medida para sua mesa, de maneira facil, rápida e intuitiva.</p>
+                </article>
+                <h2 class="text-light">Alerta! Papo para Nerds</h2>
+                <p class="text-light">Os sistemas do Mini Kraken usam arquivos JSON para criar e manipular o funcionamento de um sistema, portanto para criar um novo sistemas é necessário escrever um JSON do mesmo e o guia a seguir vai explicar um pouco do seu funcionamento e estrutura para permitir que crie seus próprios sistemas de RPG nele.</p>
+                <h4 class="text-light">i18n</h4>
+                <p class="text-light">É onde fica todas as informações de tradução do seu sistema, ou seja, nomes, embeds e exibição das coisas, a famosa perfumaria do sistema.</p>
+                <h4 class="text-light">Niveis_pericias</h4>
+                <p class="text-light">Onde você registra os emojis e os ids de cada um dos níveis de perícias</p>
+                <h4 class="text-light">Status:</h4>
+                <p class="text-light">Mesma coisa, só que pros status</p>
+                <h4 class="text-light">Atributos:</h4>
+                <p class="text-light">atributos: registra o id, o emoji e os dados<br>esses dados ficam numa array, que tem basicamente um formato de if-else<br>num sistema simples como d&amp;d, só vai um {"dice": "d20+(&lt;value_0&gt;)"} dentro da array<br>onde d20+(&lt;value_0&gt;) é o dado a ser rolado.<br><br><code class="text-primary">value_num<br>abs_num<br>math_expr</code><br></p>
+            </div>
+        </div>
+    </section>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bs-init.js"></script>
+</body>
+
+</html>

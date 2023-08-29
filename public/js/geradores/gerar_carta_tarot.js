@@ -1,0 +1,1 @@
+document.getElementById("cardsrun").onclick=card;function card(){const a=Math.floor(21*Math.random())+1;cardimg=`https://apis.arkanus.app/tarot-card/${a}.webp`,document.getElementById("cardshow").src=cardimg,console.log(`Carta gerada com sucesso:\n${cardimg}\nTipo: ${cardtype}\nValor: ${a}`)}
