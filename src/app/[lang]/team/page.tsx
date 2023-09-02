@@ -1,16 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Una from "@/assets/img/geral/pages/team/Fortuna.webp" 
-import Florence from "@/assets/img/geral/pages/team/Florence.webp"
-import Rinne from "@/assets/img/geral/pages/team/Rinne.webp"
-import Quir from "@/assets/img/geral/pages/team/Quir.webp"
-import Skethur from "@/assets/img/geral/pages/team/Skethur.webp"
-import Ana from "@/assets/img/geral/pages/team/Ana.webp"
+import Una from "@/public/img/geral/pages/team/Fortuna.webp" 
+import Florence from "@/public/img/geral/pages/team/Florence.webp"
+import Rinne from "@/public/img/geral/pages/team/Rinne.webp"
+import Quir from "@/public/img/geral/pages/team/Quir.webp"
+import Skethur from "@/public/img/geral/pages/team/Skethur.webp"
+import Ana from "@/public/img/geral/pages/team/Ana.webp"
 
+export const metadata = {
+  title: 'Equipe'
+}
 
 export default function Page() {
-  return <>
-<div className="container-fluid">
+  return <div className="container-fluid">
   <div>
     <h1 className="text-center text-light mt-2">Projetos</h1>
   </div>
@@ -316,5 +318,4 @@ export default function Page() {
     </div>
   </div>
 </div>
-</>
 }

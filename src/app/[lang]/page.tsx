@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import unaHeroLogo from "@/assets/img/geral/blobs/una_hero_logo.webp"
-import logoDnd from "@/assets/img/geral/sistemas/dnd_logo.svg"
-import logoOP from "@/assets/img/geral/sistemas/ordem_logo.svg"
-import logoT20 from "@/assets/img/geral/sistemas/Tormenta20.svg"
-import logoCarbon2185 from "@/assets/img/geral/sistemas/carbon2185_logo.svg"
-import logoGaia from "@/assets/img/geral/sistemas/Gaia-Logo.svg"
+import unaHeroLogo from "@/public/img/geral/blobs/una_hero_logo.webp"
+import logoDnd from "@/public/img/geral/sistemas/dnd_logo.svg"
+import logoOP from "@/public/img/geral/sistemas/ordem_logo.svg"
+import logoT20 from "@/public/img/geral/sistemas/Tormenta20.svg"
+import logoCarbon2185 from "@/public/img/geral/sistemas/carbon2185_logo.svg"
+import logoGaia from "@/public/img/geral/sistemas/Gaia-Logo.svg"
 
 export default function Page() {
   return <>
@@ -48,7 +48,6 @@ export default function Page() {
             src={unaHeroLogo}
             loading="eager"
             width={100}
-            layout='responsive'
             alt="Inanimalia Fortuna Tenebris Verteri"
           />
         </div>

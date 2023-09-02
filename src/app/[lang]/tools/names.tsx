@@ -1,6 +1,6 @@
 import Script from 'next/script';
 import Image from 'next/image';
-import Una from "@/assets/img/geral/blobs/names_generate.webp";
+import Una from "@/public/img/geral/blobs/names_generate.webp";
 export default function Page() {
     return <>
    <section className="py-4 py-xl-5">
