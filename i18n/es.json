@@ -1,0 +1,105 @@
+{
+  "AboutPage": {
+    "description": "<p>El enrutamiento también está internacionalizado.</p><p>Si estás usando el idioma predeterminado inglés, verás <code>/acerca de</code> en la barra de direcciones del navegador en esta página.</p><p>Si cambia la configuración regional a alemán, la URL tendrá el prefijo local (<code>/es/acerca de</code>).</p>",
+    "title": "Acerca de"
+  },
+  "Error": {
+    "description": "<p>Lamentablemente hemos encontrado un error.</p><p>Puedes intentarlo <retry>recargar la pagina</retry> estabas de visita.</p>",
+    "title": "¡Algo salió mal!"
+  },
+  "IndexPage": {
+    "s1": {
+      "btn1": "Convidar Fortuna",
+      "btn2": "Documentacion",
+      "desc": "¡Mejora tu experiencia de juego de rol de mesa en Discord con Mini Kraken! Nuestra herramienta exclusiva está diseñada para mejorar tus sesiones de juego, ya sea en sistemas como Paranormal Order (OP), Dungeons & Dragons (D&D), Tormenta20 (T20) y Gaia, brindándote una emoción incomparable."
+    },
+    "s2": {
+      "cards": {
+        "3det": {
+          "btn": "Leer más sobre 3Det",
+          "desc": "Aquí, espadas, pistolas y robots estarán a tu alcance cuando los desees. Si tus oponentes son grandes, ¡¡hazte enorme!! Lucha por la Tierra, encuentra tesoros y hazte amigo de los robots.",
+          "title": "3D&T"
+        },
+        "cb": {
+          "btn": "Leer más sobre Carbon",
+          "desc": "Una ambientación cyberpunk ambientada en un futuro distópico con alta tecnología, desigualdades sociales y recursos escasos.",
+          "title": "Carbon2185"
+        },
+        "dnd": {
+          "btn": "Leer más sobre Dragones y Mazmorras",
+          "desc": "Te esperan aventuras épicas. En un mundo lleno de magia y criaturas fantásticas, embárcate en emocionantes viajes, explora peligrosas mazmorras y desvela misterios.",
+          "title": "Dungeons & Dragons"
+        },
+        "ga": {
+          "title": "Gaia: O Prelúdio"
+        },
+        "gaia": {
+          "btn": "Leer más sobre Gaia",
+          "desc": "Trayendo un escenario medieval de alta fantasía al mundo mágico de Aurora. En Gaia serás único, caminarás por un camino forjado por ti mismo y desbloquearás las cerraduras del Velo hacia el infinito."
+        },
+        "op": {
+          "btn": "Aprende más sobre OP",
+          "desc": "Hay una fina membrana que impide que lo paranormal cruce a nuestra realidad, esta membrana se va adelgazando y lo paranormal se va manifestando.",
+          "title": "Ordem Paranormal"
+        },
+        "t20": {
+          "btn": "Leer más sobre Tormenta20",
+          "desc": "Un sistema RPG brasileño donde tenemos grandes aventuras, varios dioses deliciosos, objetos legendarios y diversión asegurada para toda la familia.",
+          "title": "Tormenta20"
+        }
+      },
+      "desc": "La aplicación hecha por fanáticos tiene como objetivo ayudarte a jugar tu juego de rol favorito, no somos propietarios ni tenemos ningún derecho sobre ellos, solo somos un grupo de programadores y jugadores que odiamos todas las matemáticas aburridas que los juegos de rol de mesa terminan creando.",
+      "title": "Sistemas RPG adaptados"
+    },
+    "s3": {
+      "cmds": "Funciones",
+      "desc": "Realice un seguimiento de los datos de rendimiento en tiempo real de Inanimalia Fortuna Tenebris Verteri, el mejor robot de rol de mesa para Discord. Manténgase actualizado sobre el rendimiento de su bot y aproveche al máximo su experiencia.",
+      "server": "Guildas",
+      "title": "Status",
+      "user": "Membros",
+      "version": "Versione"
+    },
+    "s4": {
+      "1D": "No pierdas tiempo calculando manualmente la salud de tu personaje. Con el comando /edit life, Mini Kraken hace los cálculos por ti, permitiéndote concentrarte en jugar.",
+      "1T": "Vida",
+      "2D": "Inanimalia Fortuna cuenta con un avanzado sistema de tirada de dados, permitiendo diferentes combinaciones con el comando /d. ¡No pierdas más tiempo haciendo cálculos complejos, deja que Mini Kraken se encargue de ello por ti!",
+      "2T": "Sistema de datos",
+      "3D": "Organiza fácilmente la información de los personajes con Smart Tokens. Con comandos simples, como /sheet, puedes crear y editar hojas de personajes directamente en el bot, haciendo tu tabla más ágil y eficiente.",
+      "3T": "Hoja inteligente",
+      "desc": "Mini Kraken es un bot para Discord que ofrece una amplia variedad de funciones para ayudarte en tu viaje de rol de mesa. Tira dados, gestiona iniciativas, crea personajes, utiliza generadores de nombres y más. ¡Mira sólo una pequeña muestra de todo lo que el Mini Kraken puede hacer por ti!",
+      "title": "Explora las funciones"
+    },
+    "title": "ejemplo de siguiente intl"
+  },
+  "LocaleLayout": {
+    "title": "ejemplo de siguiente intl"
+  },
+  "LocaleSwitcher": {
+    "en": "Inglés",
+    "es": "Español",
+    "lang": "Lingua",
+    "pt": "Portugués",
+    "ru": "Russian"
+  },
+  "Navigation": {
+    "docs": "Documentación",
+    "invite": "Convidar Fortuna",
+    "premium": "Donar",
+    "team": "Equipo",
+    "tools": {
+      "name": {
+        "desc": "Genera nombres para tu personaje.",
+        "title": "Generador de Nombres"
+      },
+      "poker": {
+        "desc": "Saca una carta al azar del mazo.",
+        "title": "Cartas de Juego"
+      },
+      "title": "Utilidades"
+    }
+  },
+  "NotFoundPage": {
+    "description": "Vuelva a verificar la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
+    "title": "Página no encontrada"
+  }
+}
