@@ -1,16 +1,10 @@
 import {ReactNode} from 'react';
-//import './styles.css';
-//improte o bootstrap
-import '../../public/assets/animate.min.css'
-import '../../public/assets/bootstrap/css/bootstrap.min.css'
-import '../../public/assets/bootstrap/bs-theme-overrides.css'
-import '../../public/assets/styles.css'
-
-
-//faça que animationsCss seja carregado na pagina
 
 
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import '/public/assets/styles.css'
+import 'animate.css';
 
 
 type Props = {

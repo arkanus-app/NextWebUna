@@ -3,8 +3,9 @@ import {Inter} from 'next/font/google';
 import {notFound} from 'next/navigation';
 import {createTranslator, NextIntlClientProvider} from 'next-intl';
 import {ReactNode} from 'react';
-import Navigation from 'components/Navigation';
+import Navigation from 'components/navegation/Navbar';
 import Script from 'next/script';
+import Footer from 'components/navegation/Footer';
 const inter = Inter({subsets: ['latin']});
 type Props = {
   children: ReactNode;
@@ -20,7 +21,7 @@ async function getMessages(locale: string) {
 }
 
 export async function generateStaticParams() {
-  return ['en', 'pt', 'es', 'ru'].map((locale) => ({locale}));
+  return ['en', 'pt', 'es'].map((locale) => ({locale}));
 }
 
 export async function generateMetadata({params: {locale}}: Props) {
@@ -53,6 +54,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navigation />
           {children}
+          <Footer />
         </NextIntlClientProvider>
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossOrigin="anonymous"></Script>
 
