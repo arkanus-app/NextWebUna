@@ -31,7 +31,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                <div className="fw-bold d-flex align-items-center mb-2"><img width="30" height="30" src="/assets/img/icons/arkanus.svg" /><span className="ms-2">Powered by Arkanus</span></div>
+                <div className="fw-bold d-flex align-items-center"><img width="30" height="30" src="/assets/img/icons/arkanus.svg" /><span className="ms-2">Powered by Arkanus</span></div>
                 <p className="text-muted copyright">Transformando seus sonhos em realidade com um pequeno toque de magica!</p>
             </div>
         </div>
