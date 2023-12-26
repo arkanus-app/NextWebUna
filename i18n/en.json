@@ -83,6 +83,7 @@
   },
   "NamesPage": {
     "all": "All",
+    "btn": "Generate Names",
     "copy": "Copy",
     "desc": "This character name generator was created to be a starting point for you, helping you write a Book, RPG Campaign or game. If you are looking for names for your characters, you are in the right place.",
     "female": "Female",
@@ -108,6 +109,10 @@
       "poker": {
         "desc": "Pull a random card from the deck.",
         "title": "Poker Cards"
+      },
+      "tarot": {
+        "desc": "Pull a random tarot card from deck",
+        "title": "Tarot Cards"
       },
       "title": "Tools"
     }

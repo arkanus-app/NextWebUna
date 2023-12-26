@@ -79,7 +79,7 @@ export default function IndexPage() {
                         <div className="custom-control custom-radio"><input id="customRadio2" className="custom-control-input form-check-input" type="radio" name="config" value="m" onChange={handleRadioChange} checked={selectedValue === 'm'}/><label className="form-label custom-control-label ms-1" >{t('male')}</label></div>
                         <div className="custom-control custom-radio"><input id="customRadio3" className="custom-control-input form-check-input" type="radio" name="config" value="f" onChange={handleRadioChange} checked={selectedValue === 'f'}/><label className="form-label custom-control-label ms-1" >{t('female')}</label></div>
                     </div>
-                    <div><button id="gerar" className="btn btn-primary link-light mt-2 mb-2" type="button" onClick={handleGenerate}>Gerar Nomes</button></div>
+                    <div><button id="gerar" className="btn btn-primary link-light mt-2 mb-2" type="button" onClick={handleGenerate}>{t('btn')}</button></div>
                 </div>
             </div>
         </div>

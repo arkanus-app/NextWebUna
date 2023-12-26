@@ -83,6 +83,7 @@
   },
   "NamesPage": {
     "all": "Todos",
+    "btn": "Gerar nombres",
     "copy": "Copiar",
     "desc": "Este generador de nombres de personajes fue creado para ser un punto de partida para ti, ayudándote a escribir un libro, una campaña de rol o un juego. Si estás buscando nombres para tus personajes, estás en el lugar correcto.",
     "female": "Mujer",
@@ -108,6 +109,10 @@
       "poker": {
         "desc": "Saca una carta al azar del mazo.",
         "title": "Cartas de Juego"
+      },
+      "tarot": {
+        "desc": "Puxe uma carta de Tarot",
+        "title": "Cartas de Tarot"
       },
       "title": "Utilidades"
     }
