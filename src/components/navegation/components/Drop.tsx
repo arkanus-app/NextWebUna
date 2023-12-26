@@ -4,7 +4,7 @@ import DropItem from './DropItem';
 interface DropdownMenuProps {
     title: string,
     svgLink: string,
-    items: Array<{ title: string, desc: string, link: string, svgLink: string }>
+    items: Array<{ title: any, desc: string, link: string, svgLink: string }>
 }
 
 const Seta = () => (

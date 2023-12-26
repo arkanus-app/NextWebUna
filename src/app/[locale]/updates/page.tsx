@@ -8,6 +8,7 @@ interface Update {
 }
 
 const updates: Record<string, Update> = {
+    
     0.110 : {
         titulo : "Segredo",
         version : "1.11",

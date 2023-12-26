@@ -81,8 +81,22 @@
     "pt": "Portuguese",
     "ru": "Russian"
   },
+  "NamesPage": {
+    "all": "All",
+    "copy": "Copy",
+    "desc": "This character name generator was created to be a starting point for you, helping you write a Book, RPG Campaign or game. If you are looking for names for your characters, you are in the right place.",
+    "female": "Female",
+    "male": "Male",
+    "title": "Names Generator"
+  },
   "Navigation": {
-    "docs": "Docs",
+    "docs": {
+      "title": "Docs",
+      "updates": {
+        "desc": "See all project update history.",
+        "title": "Updates"
+      }
+    },
     "invite": "Invite Fortuna",
     "premium": "Donate",
     "team": "Team",

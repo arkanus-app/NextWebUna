@@ -2,6 +2,7 @@
 import {Icon} from 'components/icons';
 import {useTranslations} from 'next-intl';
 export default function Footer() {
+    const t = useTranslations('Navigation');
     return (
         <footer>
     <div className="container py-4 py-lg-5">
@@ -39,9 +40,9 @@ export default function Footer() {
         <div className="d-flex justify-content-between align-items-center pt-3">
             <p className="text-muted mb-0">Copyright © 2023 Arkanus</p>
             <ul className="list-inline mb-0">
-                <li className="list-inline-item"><a href="#"><Icon name='discord' estilo='text-primary'/></a></li>
-                <li className="list-inline-item"><a href="#"><Icon name='tik-tok' estilo='text-primary'/></a></li>
-                <li className="list-inline-item"><a href="#"><Icon name='instagram' estilo='text-primary'/></a></li>
+                <li className="list-inline-item"><a href="https://discord.gg/Nm3CypkQaq"><Icon name='discord' estilo='text-primary'/></a></li>
+                <li className="list-inline-item"><a href="https://tiktok.com/@minikrakenbot"><Icon name='tik-tok' estilo='text-primary'/></a></li>
+                <li className="list-inline-item"><a href="https://www.instagram.com/arkanus.app/"><Icon name='instagram' estilo='text-primary'/></a></li>
             </ul>
         </div>
     </div>

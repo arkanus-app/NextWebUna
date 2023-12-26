@@ -15,9 +15,9 @@ export default function Navigation() {
             <ul className="navbar-nav ms-auto d-flex r">
             <NavItem text={t('premium')} link='/#premium' svgLink='rocket'></NavItem>
             <DropdownMenu title='Materiais' svgLink='art' items={[{ title: 'Titulo Legal muahahahaa', desc: 'test', link: '/tools/names.html', svgLink: 'discord' },{ title: 'Titulo Legal muahahahaa', desc: 'test', link: '/tools/names.html', svgLink: 'magic' },{ title: 'Titulo Legal muahahahaa', desc: 'test', link: '/tools/names.html', svgLink: 'shild' }]}></DropdownMenu>
-            <DropdownMenu title={t('tools.title')} svgLink='tesoura' items={[{ title: 'test', desc: 'test', link: '/tools/names.html', svgLink: 'discord' }]}></DropdownMenu>
-            <DropdownMenu title={t('docs')} svgLink='book' items={[{ title: 'test', desc: 'test', link: '/tools/names.html', svgLink: 'discord' }]}></DropdownMenu>
-            <NavItem text='Discord' link='https://ata' svgLink='discord'></NavItem>
+            <DropdownMenu title={t('tools.title')} svgLink='tesoura' items={[{ title: t('tools.name.title'), desc: t('tools.name.desc'), link: '/tools/names', svgLink: 'dna' }]}></DropdownMenu>
+            <DropdownMenu title={t('docs.title')} svgLink='book' items={[{ title: t('docs.updates.title'), desc: t('docs.updates.desc'), link: '/updates', svgLink: 'news' }]}></DropdownMenu>
+            <NavItem text='Discord' link='https://discord.gg/Nm3CypkQaq' svgLink='discord'></NavItem>
 
             </ul>
             <ul className="navbar-nav ms-auto">

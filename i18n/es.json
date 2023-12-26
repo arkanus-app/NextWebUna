@@ -81,8 +81,22 @@
     "pt": "Portugués",
     "ru": "Russian"
   },
+  "NamesPage": {
+    "all": "Todos",
+    "copy": "Copiar",
+    "desc": "Este generador de nombres de personajes fue creado para ser un punto de partida para ti, ayudándote a escribir un libro, una campaña de rol o un juego. Si estás buscando nombres para tus personajes, estás en el lugar correcto.",
+    "female": "Mujer",
+    "male": "Hombre",
+    "title": "Gerador de nomes"
+  },
   "Navigation": {
-    "docs": "Documentación",
+    "docs": {
+      "title": "Documentación",
+      "updates": {
+        "desc": "Lista de atualizações do projeto.",
+        "title": "Atualizaciones"
+      }
+    },
     "invite": "Convidar Fortuna",
     "premium": "Donar",
     "team": "Equipo",
